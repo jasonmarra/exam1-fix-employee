@@ -31,10 +31,12 @@ public class Employee{
      */
     public boolean canDrive(){
         int age = calculateAge(2025);
-        set age>16
-        years to wait=();
-        return type=getLicense;
-        
+        //question12
+        int canDriveAge=16;
+        if (age>=16)
+         System.out.println("Can drive");
+        else
+          System.outprintln("wait for"+(canDiveAge-age)+ "until you can drive");
         
         
     }
@@ -57,11 +59,11 @@ public class Employee{
         set CalculatePay to (70);
         return type();
         Print to John Deere will be paid 70 CAD;
-        reset to (0);
+        reset to(0);
         
         
     }
-    private double hourlyWage
+    private double hourlyWage;
     set doublehourlyWage>hourlyWage
     getPrice=doubleMoney;
     
