@@ -18,6 +18,16 @@ public class Employee{
         onLeave = false;
         unpaidHours = 0.0;
     }
+    public void setHourlyWage(int amount)
+    //question 11
+    {
+        hourlyWage=amount;
+    }
+    public double getHourlyWage()
+    //Question11
+    {
+        return hourlyWage;
+    }
     
     /**
      * Returns true is an employee is above 16 years old
@@ -63,8 +73,4 @@ public class Employee{
         
         
     }
-    private double hourlyWage;
-    set doublehourlyWage>hourlyWage
-    getPrice=doubleMoney;
-    
 }
