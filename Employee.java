@@ -31,20 +31,38 @@ public class Employee{
      */
     public boolean canDrive(){
         int age = calculateAge(2025);
-        // to be completed
+        set age>16
+        years to wait=();
+        return type=getLicense;
+        
+        
+        
     }
 
     /*
      * Returns the net pay for the outstanding unpaid hours
      */
     private double calculatePay(){
-        // to be completed
+        unpaidHours+hourlyWage=100;
+        set tax to 30%;
+        return=$70
+        Print;
+        
     }
 
     /*
      * Output the payment record and resets unpaid hours
      */
     public void paySalary(){
-        // to be completed
+        set CalculatePay to (70);
+        return type();
+        Print to John Deere will be paid 70 CAD;
+        reset to (0);
+        
+        
     }
+    private double hourlyWage
+    set doublehourlyWage>hourlyWage
+    getPrice=doubleMoney;
+    
 }
