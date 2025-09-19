@@ -43,12 +43,12 @@ public class Employee{
         int age = calculateAge(2025);
         //question12
         int canDriveAge=16;
-        if (age>=16){
+        if (age>= canDriveAge){
             System.out.println("Can drive");
             return true;
         }
         else{
-            System.outprintln("wait for"+(canDiveAge-age)+ "until you can drive");
+            System.out.println("wait for"+(canDriveAge - age)+ "until you can drive");
             return false;
         }
         
@@ -60,7 +60,7 @@ public class Employee{
     private double calculatePay()
     {
         //question 13
-        doublex tax=0.7;
+        double tax=0.7;
         return(unpaidHours*hourlyWage*tax);
     }
 
@@ -68,8 +68,10 @@ public class Employee{
      * Output the payment record and resets unpaid hours
      */
     public void paySalary(){
-        double pay=calculate
-        
+        //question 14
+        double pay=calculatePay();
+        System.out.println(fullname+ "has recieved a wire transfer of" +pay);
+        unpaidHours=0.0; 
         
     }
 }
