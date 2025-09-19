@@ -43,11 +43,14 @@ public class Employee{
         int age = calculateAge(2025);
         //question12
         int canDriveAge=16;
-        if (age>=16)
-         System.out.println("Can drive");
-        else
-          System.outprintln("wait for"+(canDiveAge-age)+ "until you can drive");
-        
+        if (age>=16){
+            System.out.println("Can drive");
+            return true;
+        }
+        else{
+            System.outprintln("wait for"+(canDiveAge-age)+ "until you can drive");
+            return false;
+        }
         
     }
 
@@ -65,10 +68,7 @@ public class Employee{
      * Output the payment record and resets unpaid hours
      */
     public void paySalary(){
-        set CalculatePay to (70);
-        return type();
-        Print to John Deere will be paid 70 CAD;
-        reset to(0);
+        double pay=calculate
         
         
     }
